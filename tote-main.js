@@ -49,10 +49,10 @@ function main(array) {
   bag.removeLast(clearedProductsCount);
   console.log('Removed count: ' + clearedProductsCount);
 
-  // Build a list of 20 good products that are not in the bag
+  // Build a list of 15 good products that are not in the bag
   products = products.sort(Product.compareRatio).reverse();
   products = products.filter(product => bag.products.indexOf(product) === -1);
-  products = products.slice(0, 20);
+  products = products.slice(0, 15);
 
   // Feed the combinatory algorithm with the prepared list of 20 products
   bag = fillBagWithCombinatory(products, bag);
