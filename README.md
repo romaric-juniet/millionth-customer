@@ -17,6 +17,6 @@ $ node tote-main
 2. Optimize the selection of products by combinatory algorithm on the products with lower ratio
 
 Step 2 uses a very fast heuristic, but doesn't yield an optimal solution  
-Step 3 successfully optimizes the bag of step 1, but requieres a little of tuning
+Step 3 successfully optimizes the bag of step 2, but requieres a little of tuning
 
 Runs in ~300ms with default tuning
