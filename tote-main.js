@@ -43,7 +43,7 @@ function main(array) {
     The best products (in term of ratio) are at the begging of the array.
     It may exist a better combination for last products: More space taken, but higer value.
     So, we remove the last quarter (arbitrarly, can be tuned) and we try every combination of 
-    the 20 best products not in the array. 20 Because it finishes in a decent time (-1 halves the processing time).
+    the 15 best products not in the array. 15 Because it finishes in a decent time (-1 halves the processing time).
   */
   const clearedProductsCount = bag.products.length / 4;
   bag.removeLast(clearedProductsCount);
